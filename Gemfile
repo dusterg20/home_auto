@@ -23,7 +23,8 @@ gem 'turbolinks',               '~> 5.2'
 gem 'jbuilder',                 '~> 2.9', '>= 2.9.1'
 gem 'pg',                       '~> 1.1', '>= 1.1.4'
 gem 'bootstrap',                '~> 4.3.1'
-gem 'bootsnap', '>= 1.1.0', require: false
+gem 'bootsnap',                 '>= 1.1.0', require: false
+gem 'popper_js',                '~> 1.14', '>= 1.14.5'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
